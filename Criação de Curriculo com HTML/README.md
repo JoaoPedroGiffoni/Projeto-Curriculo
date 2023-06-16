@@ -1,48 +1,57 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personalização do Currículo</title>
-</head>
-<body>
-    <h2>Personalização do Currículo</h2>
+# Documentação do Projeto - Curriculo HTML
 
-    <p>O currículo online foi criado usando HTML e pode ser personalizado para atender às suas necessidades específicas. A estrutura básica do currículo pode ser mantida, mas você pode atualizar as informações fornecidas, adicionar seções adicionais ou modificar o design e a aparência.</p>
+Esta documentação fornece uma visão geral do projeto "Curriculo HTML" e explica os diferentes elementos usados no arquivo HTML fornecido.
 
-    <p>Aqui estão algumas áreas que você pode personalizar:</p>
+## Introdução
 
-    <h3>Informações Pessoais</h3>
-    <p>No código HTML, você encontrará a seção "Informações Pessoais", onde pode atualizar seu nome, data de nascimento, e-mail e número de telefone.</p>
+O projeto "Curriculo HTML" consiste em criar um currículo básico utilizando a linguagem de marcação HTML. O arquivo HTML fornecido é um exemplo simples de um currículo.
 
-    <h3>Experiências Profissionais</h3>
-    <p>Na seção "Experiências", você pode adicionar ou modificar as experiências profissionais listadas. Cada experiência é representada por um título e uma descrição correspondente.</p>
+## Estrutura do Arquivo
 
-    <h3>Competências</h3>
-    <p>Na seção "Competências", você pode adicionar ou remover habilidades relevantes para sua área de atuação. Cada habilidade é representada por um título e uma descrição.</p>
+O arquivo HTML é estruturado em várias seções, cada uma delas utilizando diferentes elementos HTML para representar o conteúdo.
 
-    <h3>Formação Acadêmica</h3>
-    <p>Na seção "Formação Acadêmica", você pode atualizar as instituições de ensino e os cursos concluídos. Cada instituição é representada por um título e uma descrição correspondente.</p>
+### Títulos
 
-    <h3>Adicionar Seções Adicionais</h3>
-    <p>Você pode adicionar seções adicionais ao seu currículo, como um portfólio de projetos, certificações, atividades voluntárias, entre outros. Basta adicionar as tags HTML apropriadas e personalizar o conteúdo de acordo com suas informações.</p>
+Os elementos de título são usados para indicar a hierarquia do texto e fornecer ênfase aos títulos. O arquivo contém os seguintes elementos de título:
 
-    <h3>Visualização do Currículo</h3>
-    <p>Para visualizar o currículo online localmente, basta abrir o arquivo <code>index.html</code> em um navegador da web. Você poderá ver o layout do currículo e revisar as informações fornecidas.</p>
+- `<h1>`: Usado para o título principal do currículo.
+- `<h2>`: Usado para títulos secundários.
+- `<h3>`: Usado para títulos de nível 3.
+- `<h4>`: Usado para títulos de nível 4.
+- `<h5>`: Usado para títulos de nível 5.
+- `<h6>`: Usado para títulos de nível 6.
 
-    <h3>Implantação no GitHub Pages</h3>
-    <p>Se você deseja hospedar seu currículo online no GitHub Pages, siga as etapas abaixo:</p>
-    <ol>
-        <li>Vá para as configurações do seu repositório no GitHub.</li>
-        <li>Role para baixo até a seção "GitHub Pages".</li>
-        <li>Selecione o branch <code>master</code> (ou a branch de sua preferência) como a fonte a ser usada para o GitHub Pages.</li>
-        <li>O link para o seu currículo online estará disponível na seção "GitHub Pages".</li>
-    </ol>
+### Parágrafos
 
-    <p>Você pode compartilhar esse link com outras pessoas para que elas possam acessar seu currículo online hospedado no GitHub Pages.</p>
+O elemento `<p>` é usado para representar parágrafos de texto. O arquivo contém um exemplo de parágrafo.
 
-    <h3>Contribuição</h3>
-    <p>Sinta-se à vontade para contribuir com melhorias neste currículo online. Se você identificar problemas, erros de código ou tiver sugestões de aprimoramento, abra uma issue ou envie uma pull request.</p>
-</body>
-</html>
+### Tag `<span>`
+
+O elemento `<span>` é usado para aplicar estilos específicos a um trecho de texto dentro de um parágrafo. No exemplo fornecido, a tag `<span>` é usada para alterar a cor de um trecho de texto para azul.
+
+### Elemento `<strong>`
+
+O elemento `<strong>` é usado para fornecer ênfase ou importância a um trecho de texto. No exemplo, ele é usado para destacar um trecho do parágrafo.
+
+### Elemento `<em>`
+
+O elemento `<em>` é usado para enfatizar o texto dentro de um parágrafo. Ele é utilizado no exemplo para destacar um trecho específico do parágrafo.
+
+### Listas Ordenadas e Não Ordenadas
+
+O exemplo contém exemplos de listas ordenadas e não ordenadas.
+
+- `<ol>`: Usado para criar uma lista ordenada. Cada item da lista é representado por um elemento `<li>`.
+- `<ul>`: Usado para criar uma lista não ordenada. Também utiliza elementos `<li>` para representar cada item da lista.
+
+### Linha Horizontal
+
+A tag `<hr>` é usada para criar uma linha horizontal no documento HTML.
+
+### Imagem
+
+A tag `<img>` é usada para exibir uma imagem no documento HTML. No exemplo, é mostrado como definir a largura da imagem usando o atributo `width`.
+
+## Conclusão
+
+Esta documentação forneceu uma visão geral do projeto "Curriculo HTML" e explicou os diferentes elementos usados no arquivo HTML fornecido. Utilize esta documentação como referência para entender a estrutura e os elementos do projeto.
